@@ -24,7 +24,6 @@ Mappings:
   RegionMap:
     us-east-1:
       AMALINUX: ami-09a5b0b7edf08843d
-
   InstanceSize:
     SMALL:
       "EC2" : "t2.micro"
@@ -35,7 +34,6 @@ Mappings:
     LARGE:
       "EC2" : "t2.medium"
       "DB" : "db.t2.medium"
-
 Resources:
   DB:
     Type: "AWS::RDS::DBInstance"
