@@ -100,10 +100,10 @@ Resources:
         install_wordpress:
           packages:
             yum:
-              httpd: []
-              php: []
-              mysql: []
-              php-mysql: []
+              httpd24: []
+              php70: []
+              mysql57: []
+              php70-mysqlnd: []
           sources:
             /var/www/html: "http://wordpress.org/latest.tar.gz"
           services:
