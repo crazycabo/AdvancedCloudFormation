@@ -6,7 +6,7 @@ Resources:
       ManagedPolicyArns:
         - "arn:aws:iam::aws:policy/ReadOnlyAccess"
       LoginProfile:
-        Password: "P@55w0rd"
+        Password: "@cL0uDgUrU2020"
         PasswordResetRequired: false
   iamkeys:
     DependsOn: iamuser
@@ -54,7 +54,7 @@ Resources:
                   - "mobileanalytics:PutEvent"
                   - "cognito-sync:*"
                   - "cognito-identity:*"
-                Resource: "*" 
+                Resource: "*"
 Outputs:
   customerakid:
     Description: Customer Access Key ID

@@ -6,7 +6,7 @@ Resources:
       ManagedPolicyArns:
         - "arn:aws:iam::aws:policy/AdministratorAccess"
       LoginProfile:
-        Password: "P@55w0rd"
+        Password: "@cL0uDgUrU2020"
         PasswordResetRequired: false
   iamkeys:
     DependsOn: iamuser
